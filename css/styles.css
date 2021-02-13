@@ -37,6 +37,11 @@ header.mainHeader {
     align-items: center;
     height: 62px;
     color:white;
+    position:sticky;
+    top:0;
+    background-color: #16378c;
+    z-index: 1;
+    
 }
 
 .headerWrapper {
@@ -179,6 +184,7 @@ header.mainHeader {
     justify-content: space-between;
     align-items: center;
     border-right: 1px solid #00000020;
+    min-width: 25%;
 }
 
 .filePrediction:last-child {
@@ -189,4 +195,32 @@ header.mainHeader {
 .filePrediction .temp,
 .filePrediction .icon {
     font-size: 2rem;
+}
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background: white;
+    font-size: 1.5em;
+    height: 60px;
+}
+.footerNav {
+    padding-top:5px;
+    display: flex;
+    justify-content: space-around;
+}
+.footerNav a {
+    color:grey;
+    text-decoration: none;
+}
+.footer a:hover {
+    color:blue;
+}
+.footerFile {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerFile  .text {
+    font-size: 0.75rem;
 }
