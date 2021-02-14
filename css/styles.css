@@ -135,6 +135,7 @@ header.mainHeader {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .todayPrediction h2 {
@@ -223,4 +224,45 @@ footer {
 }
 .footerFile  .text {
     font-size: 0.75rem;
+}
+.advise {
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.adviseWrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.advise img {
+    width: 75%;
+
+}
+
+.todayReport {
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reportResume {
+    display: flex;
+}
+
+.reportTemp {
+
+}
+
+.sunTime {
+    
+}
+.sunTime>* {
+    display: flex;
 }
